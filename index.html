@@ -1,1 +1,89 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<title>Andrew Valancius</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height)  Vela-DSS-New-L.jpg  orionred_WISEantonucci_1824.jpg*/
+.bgimg-1 {
+  background-image: url('Vela-DSS-New-L.jpg');
+  min-height: 100%;
+}
+
+/* w3-button w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity  */
+
+.av-link {
+  border: 2px solid transparent;
+  display:inline-block;
+  padding:8px 16px;
+  vertical-align:middle;
+  overflow:hidden;
+  text-decoration:none;
+  color:inherit;
+  background-color:inherit;
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap;
+  color:#fff;
+  background-color:#000;
+
+}
+
+
+.av-link:hover {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+
+  background-color: rgba(0,0,20,0.4);
+}
+
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+<body>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle w3-center" style="white-space:nowrap;">
+    <div class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">
+      ANDREW VALANCIUS'S
+    </div>
+    <a href="AV_Resume.pdf" class="w3-center w3-xlarge w3-wide av-link" style="margin-top: 10px;">
+      <i class="fa fa-file-pdf"></i> RESUME
+    </a>
+  </div>
+  <div>
+    
+  </div>
+</div>
+
+</body>
+</html>
