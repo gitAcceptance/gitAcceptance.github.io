@@ -1,2 +1,2 @@
 # gitAcceptance.github.io
-About me
+Currently just a site that links to my resume.
