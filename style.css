@@ -1,0 +1,81 @@
+
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Background image*/
+.bgimg-1 {
+  background-image: url("https://gitAcceptance.github.io/Vela-DSS.jpg");
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.av-link {
+  border: 2px solid transparent;
+  display:inline-block;
+  vertical-align:middle;
+  overflow:hidden;
+  text-decoration:none;
+  color:inherit;
+  background-color:inherit;
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap;
+  color:#fff;
+  background-color:#000;
+
+}
+
+.av-link:hover {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+
+  background-color: rgba(0,0,20,0.4);
+}
+
+.av-intro-text {
+  font-size: 24px;
+  letter-spacing: 8px;
+
+}
+
+.av-padding {
+  padding: 12px 24px;
+}
+
+
+@media only screen and (max-width: 300px) {
+  .av-intro-text {
+    letter-spacing: 1px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .av-padding {
+    padding: 6px 12px;
+  }
+
+  .av-center-panel {
+    max-width: 96vw;
+
+  }
+
+  .av-intro-text {
+    font-size: 4vw; 
+    letter-spacing: 4px;
+  }
+
+
+}
+
